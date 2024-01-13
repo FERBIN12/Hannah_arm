@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kanja-koduki/hannah_ws/install/hannah_bot/lib/python3.10/site-packages",
+        "/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages",
+        "/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg/lib/python3.10/site-packages",
+        "/home/kanja-koduki/ortega_ws/install/ortega_bot/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kanja-koduki/hannah_ws/install/hannah_bot/lib/python3.10/site-packages",
+        "/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages",
+        "/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg/lib/python3.10/site-packages",
+        "/home/kanja-koduki/ortega_ws/install/ortega_bot/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
