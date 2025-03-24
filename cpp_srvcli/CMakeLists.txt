@@ -4,6 +4,8 @@ project(cpp_srvcli)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(example_interfaces REQUIRED)
+find_package(moveit_ros_planning_interface REQUIRED)
+find_package(rcl_interfaces REQUIRED)
 
 add_executable(server src/add_two_ints_server.cpp)
 ament_target_dependencies(server rclcpp example_interfaces)
@@ -11,9 +13,13 @@ ament_target_dependencies(server rclcpp example_interfaces)
 add_executable(client src/add_two_ints_client.cpp)
 ament_target_dependencies(client rclcpp example_interfaces)
 
+add_executable(simple_moveit_interface src/simple_moveit_interface.cpp)
+ament_target_dependencies(simple_moveit_interface rclcpp moveit_ros_planning_interface)
+
 install(TARGETS
   server
   client
+  simple_moveit_interface
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

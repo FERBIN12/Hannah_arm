@@ -13,7 +13,7 @@
   <exec_depend>rviz2</exec_depend>
   <exec_depend>moveit_configs_utils</exec_depend>
   <exec_depend>moveit_ros_move_group</exec_depend>
-  <exec_depend>arduinobot_description</exec_depend>
+  <exec_depend>hannahbot_description</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

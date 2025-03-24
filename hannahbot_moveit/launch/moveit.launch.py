@@ -17,7 +17,7 @@ def generate_launch_description():
     )
 
     moveit_config = (
-        MoveItConfigsBuilder("arduinobot", package_name="hannahbot_moveit")
+        MoveItConfigsBuilder("hannahbot", package_name="hannahbot_moveit")
         .robot_description(file_path=os.path.join(
             get_package_share_directory("hannahbot_description"),
             "urdf",

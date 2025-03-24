@@ -23,7 +23,9 @@ setup(
             'simple_pub = hannah_bot.simple_publisher:main',
             'simple_sub = hannah_bot.simple_subscriber:main',
             'simple_parm = hannah_bot.simple_parameter:main',
-            'simple_service_server = hannah_bot.simple_service_server:main'
+            'simple_service_server = hannah_bot.simple_service_server:main',
+            'simple_action_server = hannah_bot.simple_action_server:main',
+            'simple_action_client = hannah_bot.simple_action_client:main',
         ],
     },
 )
